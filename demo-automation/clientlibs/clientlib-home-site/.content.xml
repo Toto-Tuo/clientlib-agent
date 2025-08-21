@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:ClientLibraryFolder"
+    allowProxy="{Boolean}true"
+    categories="[wknd-home.site]"
+    dependencies="[wknd-new.base]"
+    embed="[core.wcm.components.navigation.v1,core.wcm.components.languagenavigation.v1,core.wcm.components.list.v3]"/>

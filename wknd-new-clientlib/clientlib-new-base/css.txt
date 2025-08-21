@@ -1,0 +1,8 @@
+# This file defines the loading order of CSS files for wknd-new.base
+# Currently relies on embedded core components for styling
+# Add custom WKND CSS files here if needed
+
+# Example custom files (uncomment and add as needed):
+# css/wknd-homepage.css
+# css/wknd-components.css
+

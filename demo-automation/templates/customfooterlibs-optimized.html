@@ -1,0 +1,11 @@
+<!--
+  Optimized Footer Client Library Inclusion for WKND
+  This template includes only the client libraries needed for the home page
+-->
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html">
+    <!-- Include optimized site client library (JavaScript only in footer) -->
+    <sly data-sly-call="${clientLib.js @ categories='wknd-home.site'}" />
+    
+    <!-- Dependencies load automatically: wknd-new.base → core components -->
+</sly>

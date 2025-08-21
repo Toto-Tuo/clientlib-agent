@@ -1,0 +1,7 @@
+# JS loading order for wknd-new.base
+# Currently relies on embedded core components for functionality
+# Add custom WKND JS files here if needed
+
+# Example custom files (uncomment and add as needed):
+# js/wknd-homepage.js
+# js/wknd-analytics.js

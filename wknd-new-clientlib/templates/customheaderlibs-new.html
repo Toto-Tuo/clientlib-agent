@@ -1,0 +1,17 @@
+<!--
+  Optimized Header Client Library Inclusion for WKND
+  This template includes only the client libraries needed for the home page
+  Replaces: wknd.base with wknd-new.base (optimized version)
+-->
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html">
+    <!-- Include optimized WKND base client library (CSS only in header) -->
+    <sly data-sly-call="${clientLib.css @ categories='wknd-new.base'}" />
+    
+    <!-- Include WKND dependencies if needed -->
+    <sly data-sly-call="${clientLib.css @ categories='wknd.dependencies'}" />
+    
+    <!-- Include WKND grid if needed -->
+    <sly data-sly-call="${clientLib.css @ categories='wknd.grid'}" />
+</sly>
+

@@ -1,0 +1,20 @@
+# CSS loading order for wknd-home.site
+# Site-level styles optimized for homepage
+
+# Base site styles
+css/wknd-site-base.css
+
+# Homepage specific navigation
+css/wknd-homepage-nav.css
+
+# Language/country selector
+css/wknd-language-nav.css
+
+# Footer styling
+css/wknd-footer.css
+
+# Homepage hero section
+css/wknd-homepage-hero.css
+
+# Article cards and listings
+css/wknd-article-cards.css

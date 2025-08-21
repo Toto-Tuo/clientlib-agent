@@ -1,0 +1,9 @@
+# JS loading order for wknd-home.site
+# Site-level scripts optimized for homepage
+
+js/wknd-site-base.js
+js/wknd-navigation.js
+js/wknd-language-selector.js
+js/wknd-homepage-interactions.js
+js/wknd-article-cards.js
+js/wknd-social-sharing.js

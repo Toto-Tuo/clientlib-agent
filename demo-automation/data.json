@@ -1,0 +1,217 @@
+{
+  "aemData": {
+    "page": {
+      "path": "/content/wknd/us/en",
+      "componentsUsed": []
+    },
+    "template": {
+      "allowedComponents": [],
+      "policies": {}
+    },
+    "pagesByTemplate": {
+      "pagePaths": []
+    }
+  },
+  "repoData": {
+    "clientlibs": [
+      {
+        "category": "wknd.base",
+        "path": "ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-base",
+        "embeds": [
+          "core.wcm.components.accordion.v1",
+          "core.wcm.components.tabs.v1",
+          "core.wcm.components.carousel.v1",
+          "core.wcm.components.image.v3",
+          "core.wcm.components.breadcrumb.v2",
+          "core.wcm.components.search.v1",
+          "core.wcm.components.form.text.v2",
+          "core.wcm.components.embed.v1"
+        ],
+        "dependencies": [],
+        "assets": {
+          "js": [],
+          "css": []
+        },
+        "nodeType": "cq:ClientLibraryFolder",
+        "allowProxy": true
+      },
+      {
+        "category": "wknd.grid",
+        "path": "ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-grid",
+        "embeds": [],
+        "dependencies": [],
+        "assets": {
+          "js": [],
+          "css": []
+        },
+        "nodeType": "cq:ClientLibraryFolder",
+        "allowProxy": true
+      },
+      {
+        "category": "wknd.dependencies",
+        "path": "ui.apps/src/main/content/jcr_root/apps/wknd/clientlibs/clientlib-dependencies",
+        "embeds": [
+          "granite.csrf.standalone"
+        ],
+        "dependencies": [],
+        "assets": {
+          "js": [],
+          "css": []
+        },
+        "nodeType": "cq:ClientLibraryFolder",
+        "allowProxy": true
+      }
+    ],
+    "htlInclusions": [
+      {
+        "file": "ui.apps/target/classes/apps/wknd/components/xfpage/customfooterlibs.html",
+        "category": "wknd.base",
+        "type": "js"
+      },
+      {
+        "file": "ui.apps/target/classes/apps/wknd/components/xfpage/customfooterlibs.html",
+        "category": "wknd.base",
+        "type": "js"
+      },
+      {
+        "file": "ui.apps/target/classes/apps/wknd/components/xfpage/customheaderlibs.html",
+        "category": "wknd.base",
+        "type": "css"
+      },
+      {
+        "file": "ui.apps/target/classes/apps/wknd/components/xfpage/customheaderlibs.html",
+        "category": "wknd.base",
+        "type": "css"
+      },
+      {
+        "file": "ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customfooterlibs.html",
+        "category": "wknd.base",
+        "type": "js"
+      },
+      {
+        "file": "ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customfooterlibs.html",
+        "category": "wknd.base",
+        "type": "js"
+      },
+      {
+        "file": "ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customheaderlibs.html",
+        "category": "wknd.base",
+        "type": "css"
+      },
+      {
+        "file": "ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customheaderlibs.html",
+        "category": "wknd.base",
+        "type": "css"
+      }
+    ],
+    "templateCategoryRefs": [
+      {
+        "file": "ui.apps/target/classes/apps/wknd/components/xfpage/customfooterlibs.html",
+        "category": "wknd.base",
+        "context": "component-config"
+      },
+      {
+        "file": "ui.apps/target/classes/apps/wknd/components/xfpage/customheaderlibs.html",
+        "category": "wknd.base",
+        "context": "component-config"
+      },
+      {
+        "file": "ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customfooterlibs.html",
+        "category": "wknd.base",
+        "context": "component-config"
+      },
+      {
+        "file": "ui.apps/src/main/content/jcr_root/apps/wknd/components/xfpage/customheaderlibs.html",
+        "category": "wknd.base",
+        "context": "component-config"
+      }
+    ],
+    "dependencyGraph": {
+      "nodes": [
+        "wknd.base",
+        "core.wcm.components.accordion.v1",
+        "core.wcm.components.tabs.v1",
+        "core.wcm.components.carousel.v1",
+        "core.wcm.components.image.v3",
+        "core.wcm.components.breadcrumb.v2",
+        "core.wcm.components.search.v1",
+        "core.wcm.components.form.text.v2",
+        "core.wcm.components.embed.v1",
+        "wknd.grid",
+        "wknd.dependencies",
+        "granite.csrf.standalone"
+      ],
+      "edges": [
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.accordion.v1",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.tabs.v1",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.carousel.v1",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.image.v3",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.breadcrumb.v2",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.search.v1",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.form.text.v2",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.base",
+          "to": "core.wcm.components.embed.v1",
+          "type": "embed"
+        },
+        {
+          "from": "wknd.dependencies",
+          "to": "granite.csrf.standalone",
+          "type": "embed"
+        }
+      ],
+      "circular": [],
+      "unused": [
+        "wknd.grid",
+        "wknd.dependencies"
+      ],
+      "duplicates": []
+    }
+  },
+  "correlated": {
+    "componentToCategories": {},
+    "missingCategories": []
+  },
+  "recommendation": {
+    "prioritizedSteps": [
+      {
+        "title": "Remove 2 unused client libraries",
+        "rationale": "Categories wknd.grid, wknd.dependencies have no template references and should be removed to reduce bundle size",
+        "impact": "medium"
+      }
+    ],
+    "proposedCategories": [],
+    "policyUpdates": [],
+    "risks": [
+      "Verify unused categories are not loaded dynamically before removal"
+    ]
+  }
+}
